@@ -55,3 +55,20 @@ window.addEventListener("scroll", function() {
 })
 
 const awanFall = document.getElementById("awan-fall")
+const pohonFall1 = document.getElementById("pohon1-fall")
+const pohonFall2 = document.getElementById("pohon2-fall")
+const pohonFall3 = document.getElementById("pohon3-fall")
+const plantFall1 = document.getElementById("plant1-fall")
+const plantFall2 = document.getElementById("plant2-fall")
+const kata = document.getElementById("text")
+
+window.addEventListener("scroll", function() {
+    let scroll = window.scrollY
+
+    awanFall.style.left = -scroll + "px"
+    pohonFall1.style.left = scroll * -1.5 + "px"
+    pohonFall2.style.left = scroll + "px"
+    pohonFall3.style.left = scroll * 2 + "px"
+    plantFall1.style.left = -scroll + "px"
+    plantFall2.style.left = scroll * 1.3 + "px" 
+})
