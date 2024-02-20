@@ -1,0 +1,85 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.parallax h1 {
+    position: absolute;
+    font-size: 7em;
+    color: rgb(93, 90, 90);
+}
+
+.parallax .salju {
+    position: absolute;
+}
+
+.warna {
+    background-color: #f9e0ae;
+}
+
+.awan-spring-posisi1 {
+    margin-left: 53%;
+}
+
+.awan-spring-posisi2 {
+    margin-left: -53%;
+}
+
+.mount-spring1 {
+    margin-left: -78%;
+} 
+
+.mount-spring2 {
+    margin-left: 78%;
+}
+
+.bunga-spring1 {
+    margin-left: -103%;
+}
+
+.bunga-spring2 {
+    margin-left: 103%;
+}
+.sun-spring {
+    margin-left:55%
+}
+
+.sun-summer {
+    margin-left: 104%;
+}
+
+.leaf-summer {
+    margin-left: 152%;
+}
+
+.awan-summer {
+    margin-left: -100%;
+}
+
+.bird-summer {
+    margin-left: -200%;
+}
